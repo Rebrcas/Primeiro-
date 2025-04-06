@@ -1,0 +1,15 @@
+programa {
+	funcao inicio () {
+	 inteiro  a, b, c, d
+	escreva("digite quatro valores","\n")	
+	leia(a)	
+	leia(b)
+	leia(c)
+	leia(d)
+	escreva("DIFERENCA=" , (a * b - c *d ) , "\n")
+	}
+}
+             	
+
+
+
