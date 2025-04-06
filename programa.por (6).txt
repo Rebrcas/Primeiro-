@@ -1,0 +1,31 @@
+programa
+{
+	funcao inicio ()
+	{
+		real vHoraTrab
+        real vValorHora
+        real vDescINSS
+        real vTotalDesconto
+        real vSalarioBruto
+        real vSalarioLiquido
+        escreva("Informe a qtde de horas trab: ")
+        leia(vHoraTrab)
+        escreva("Informe o valor por hora: ")
+        leia(vValorHora)
+        escreva("Informe o desconto INSS: ")
+        leia(vDescINSS)
+        
+        
+        vSalarioBruto = vHoraTrab * vValorHora
+        escreva("\nsalario Bruto: ", vSalarioBruto)
+        vTotalDesconto = vSalarioBruto * vDescINSS / 100
+        escreva("\nTotal Desconto ", vTotalDesconto)
+        
+        vSalarioLiquido = vSalarioBruto - vTotalDesconto 
+        escreva("\nSalario Liquido: ", vSalarioLiquido)
+    }
+}
+		
+		
+	}
+}
