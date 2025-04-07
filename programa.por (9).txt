@@ -1,0 +1,32 @@
+
+	programa
+{
+	funcao inicio ()
+	{
+		real vsalariofixo
+        real vvendas
+        real vcomissao 
+        cadeia vnome
+		real vsalariototal
+       
+        escreva("vsalariofixo  ")
+        leia(vsalariofixo)
+        escreva("Informe o valor por vvendas: ")
+        leia(vcomissao)
+        escreva("Informe o vcomissao: ")
+        leia(vnome)
+		escreva("vnome")
+		
+	
+        
+        
+        vsalariototal = vsalariofixo + vvendas + vcomissao
+        escreva("vsalariototal =  vSalariofiriofixo + vvendas + vcomissao")
+}
+		
+		
+	}
+}	
+		
+	}
+}
